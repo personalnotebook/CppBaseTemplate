@@ -15,7 +15,7 @@ bool isLeapYear(int year) {
 // ---------------------------------------------------------
 TEST_CASE("测试闰年算法") {
   // 基础测试
-  CHECK(isLeapYear(8000) == true);   // 400的倍数，是闰年
+  CHECK(isLeapYear(2000) == true);   // 400的倍数，是闰年
   CHECK(isLeapYear(1900) == false);  // 100的倍数但不是400的倍数，不是闰年
 
   // 日常年份测试
